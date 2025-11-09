@@ -1,0 +1,16 @@
+create a file - nano hello_user.sh
+
+inside that
+--------------------------------------------------
+#!/bin/bash
+echo "Enter your name"
+read name 
+echo "Hello!, $name! Welcome to the Linux World!."
+date
+---------------------------------------------------
+
+then execute the script like
+input - Gokul
+---------------------------------------------------------------
+the output is --->  Hello!, Gokul! Welcome to the Linux World!.
+---------------------------------------------------------------

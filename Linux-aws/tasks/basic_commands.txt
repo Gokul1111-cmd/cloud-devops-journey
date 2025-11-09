@@ -1,0 +1,12 @@
+| Command          | What it Does            |
+| ---------------- | ----------------------- |
+| `pwd`            | Print working directory |
+| `ls`             | List files              |
+| `cd /path`       | Change directory        |
+| `cat filename`   | Display file content    |
+| `touch file.txt` | Create file             |
+| `mkdir folder`   | Create directory        |
+| `rm file.txt`    | Delete file             |
+| `mv file1 file2` | Move/rename file        |
+| `cp file1 file2` | Copy file               |
+| `history`        | Shows last commands     |

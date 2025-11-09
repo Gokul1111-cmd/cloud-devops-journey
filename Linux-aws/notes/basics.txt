@@ -1,0 +1,73 @@
+what is linux ?
+
+Linux is an open-source operating system kernel that manages hardware and runs commands.
+
+Distributions like Ubuntu, CentOS, and Debian package the kernel with tools and libraries.
+
+As a Cloud/DevOps engineer, 90% of your servers will run Linux (on EC2, containers, etc.).
+
+-------------------------------------------------------------------------------------------------
+
+Commands:
+
+| Command          | What it Does            |
+| ---------------- | ----------------------- |
+| `pwd`            | Print working directory |
+| `ls`             | List files              |
+| `cd /path`       | Change directory        |
+| `cat filename`   | Display file content    |
+| `touch file.txt` | Create file             |
+| `mkdir folder`   | Create directory        |
+| `rm file.txt`    | Delete file             |
+| `mv file1 file2` | Move/rename file        |
+| `cp file1 file2` | Copy file               |
+| `history`        | Shows last commands     |
+
+--------------------------------------------------------------------------------22
+Linux directory Structure
+/home        – user directories
+/etc         – configuration files
+/var/log     – logs
+/usr/bin     – executables
+/tmp         – temporary files
+
+-----------------------------------------------------------------------------------
+chmod - permissions to files and directory
+
+ls -l notes.txt
+chmod 700 notes.txt
+ls -l notes.txt
+
+
+changing ownership  - sudo chown $USER:$USER notes.txt
+uptime - the system runtime since it was started
+whoami - your username is displayed
+uname -a - the total list of the usernames in the system is displayed in the terminal
+
+--------------------------------------------------------------------------------------
+
+kill process - kill <PID> ( process Id )
+
+control file permissions 
+
+read 
+write
+execute
+
+sudo chmod 770 notes.txt
+
+here chmod stands for changemode and 770  is permissions for individuals
+
+7          7          0 
+owner    users     others
+
+read has - 4 value
+write has - 2 value 
+execute has - 1 value 
+
+if the value is 7 then they have read, write and executing permissions
+if they have 5 value, they have read and execute permissions
+if they have 6 value, they have read and write permissions
+if they have 3 value, they have the write and execute permissions
+
+---------------------------------------------------------------------------

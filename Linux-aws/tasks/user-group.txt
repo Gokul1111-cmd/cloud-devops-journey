@@ -1,0 +1,18 @@
+add user
+sudo useradd testuser
+sudo passwd testuser
+
+-------------------------------
+
+switch to user 
+
+su - testuser
+whoami
+exit
+
+---------------------------------
+
+then delete it 
+
+sudo userdel -r testuser
+---------------------------------
